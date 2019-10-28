@@ -49,6 +49,8 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Error de entrada. Valor incorrecto.");
 
+        } finally {
+            SCN.nextLine();
         }
     }
 
